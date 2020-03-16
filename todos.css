@@ -6,6 +6,15 @@ body {
         margin-top:250px ;
         padding: 0 20px 20px 20px;
         border-radius: 50px;
+        position: center;
+}
+
+#app{
+    width: 320px;
+    background: #FFF;
+    box-shadow: 0 0 14px 0rgba(0,0,0,0,0.02);
+    border-radius: 2px;
+    padding:  30px 20px;
 }
 
 #app button {
@@ -21,12 +30,12 @@ body {
     cursor: pointer;
     transition-duration: 0.5s;
 }
-button:hover{
+#app button:hover{
     background: #6931ca ;
 }
 
 #app input{
-    width: 100%;
+    width: 75%;
 height: 32px;
 font-size: 14px;
 color: #777;
@@ -34,6 +43,7 @@ border: 0;
 border-bottom: 1px solid #EEE;
 transition-duration: 0.5s;
 }
+
 #app input{
     margin-top: 20px;
     display: grid;
@@ -41,7 +51,13 @@ transition-duration: 0.5s;
     grid-template-columns: 1fr 1fr;
 }
 
-button:hover{
-    background: #6931ca ;
-    transition-delay: 0.5;
+li{
+    font-size: 25px;
+    text-decoration:none;
+    
+}
+
+a{
+    text-decoration:none;
+    margin-left: 50px;
 }
