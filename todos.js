@@ -18,3 +18,13 @@ function renderTodos(){
     }
 }
 renderTodos();
+
+function addTodo(){
+    var todoText = inputElement.value;
+
+    todos.push(todoText);
+    inputElement = '';
+    renderTodos();
+}
+
+buttonElement.onclick= addTodo;
